@@ -1,0 +1,6 @@
+This program can take in a number of options ont the command line to alter its behavior:
+     -r: Tells the hash table to use a red-black tree as its container type.
+     -s table-size: "table-size" is the size of the hash table and assumes it is a number greater than 0.
+     -p: Prints the hash table to stdout one line per non-empty container with the index of the container printed at the start of the line. This option does not read anything from stdin or print anything else out when this option is used.
+     -i: Prints information about how long it took to fill the hash table, search the table and how many unknown word were found.
+     -h: Prints a help message describing how to use the program and then exit.
